@@ -40,7 +40,7 @@ if [ -z $pip ] && [ $distro != termux ]; then
     pip=$python-pip
 fi
 $sudo $install git $python $pip
-git clone https://github.com/cludeex/spammer
+git clone https://github.com/HugoXOX3/SMSBomer.git
 $python -m pip install -r spammer/requirements.txt
 $sudo cp spammer/spammer.py $bin/spammer
 $sudo chmod +x $bin/spammer
